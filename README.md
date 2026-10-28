@@ -156,12 +156,16 @@ The notebook includes `%pip install` cells for `vaderSentiment` and `ollama`; th
 - **VADER Sentiment:** Exploratory rule-based sentiment baseline, with limited manual validation.
 - **Ollama with Qwen2.5:3b:** Exploratory local AI experiment for structuring customer comments.
 
-## Public repository files
+## Public Repository Files
 
-- `Kestrel_Data_AI_Challenge_Submission_REVISED.ipynb` — Notebook documenting the data-preparation and analysis workflow, visualisations, recommendations, and exploratory AI experiment. Saved outputs are cleared; run it from the top in the intended environment to reproduce and validate the results.
-- `Kestrel_Customer_Feedback_Visual_Summary_REVISED.xlsx` — Aggregated-only dashboard, feedback-theme analysis, visible chart data, and data-quality notes. It does not contain customer-level comments.
-- `README.md` — Project overview, findings, recommendations, AI evaluation, limitations, and reproducibility notes.
+- `Kestrel_Data_AI_Challenge_Submission_REVISED.ipynb` — Jupyter Notebook documenting data preparation, analysis, visualisations, recommendations, and the exploratory AI experiment. Saved outputs are cleared; run the notebook from the beginning in the intended environment to reproduce and validate the results.
 
-Customer-level feedback files, source archives, and pattern-screened exports are intentionally not included in this public repository because they may contain identifying information or may not be authorised for public release. The notebook requires the permitted source archive and dependencies in order to run; these are not included here.
+- `Kestrel_Customer_Feedback_Visual_Summary_REVISED.xlsx` — Aggregated dashboard, feedback-theme analysis, chart data, and data-quality notes.
 
-Run the notebook from the top to reproduce its analysis and outputs in an environment that has the supplied source archive and required dependencies.
+- `Kestrel_Customer_Feedback_Detail.xlsx` — Customer feedback dataset supplied for the assessment, containing dealership, date, department, customer rating, feedback comments, sentiment, and feedback themes.
+
+- `README.md` — Project overview, business questions, key findings, recommendations, AI evaluation, limitations, and reproducibility instructions.
+
+### Dataset and Privacy Note
+
+The customer feedback dataset was supplied as synthetic assessment data and is analysed as a real-world business scenario. Pattern-based screening may remove some identifying details, but it does not guarantee complete anonymisation. The analysis also acknowledges data-quality limitations, including missing information, inconsistent ratings, and potentially invalid dates.
