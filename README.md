@@ -6,6 +6,18 @@ This project consolidates and analyses 7,086 customer-feedback records to identi
 
 The numeric-rating analysis uses 6,489 records after excluding Kestrel Ringwood, whose rating standardisation is inconsistent, and Kestrel Tamworth, which has no usable numeric ratings. Repair quality, booking and appointments, waiting time, and communication are priority areas for investigation. Cleanliness and facilities also has a low average rating, but the sample is small. Staff behaviour is a relative strength among the selected themes.
 
+## Business Problem
+
+Kestrel Motor Group has a large customer-feedback dataset, but inconsistent ratings, missing information, and varied customer comments make it difficult to identify the most important service issues and decide where improvements should be prioritised.
+
+This project uses data analysis and AI-assisted techniques to address three key business questions:
+
+1. **What is driving negative feedback?** Identify the main complaint themes and compare customer experiences across dealerships and departments.
+
+2. **What has changed over time?** Analyse customer-rating trends to identify declines, improvements, and patterns that warrant further investigation.
+
+3. **Where should the business focus first, and what might it be worth?** Prioritise improvement opportunities using feedback frequency, rating severity, and business relevance, then estimate potential financial significance using illustrative scenarios rather than unsupported predictions.
+
 ## 2. Approach and technology choices
 
 Python and pandas were used to consolidate, clean, validate, and analyse feedback data. Matplotlib was used for visualisation, and the Jupyter Notebook documents the workflow. A local Ollama-hosted Qwen2.5:3b model was tested on a small sample to explore structured extraction of sentiment, positive aspects, issues, and explanations.
